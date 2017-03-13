@@ -13,7 +13,8 @@ Clone repo to deployment server
 Update hosts file on deployment server  
 ```cd ansible-flask-demo```   
 ```vim hosts```   
-```[webservers]'''
+  
+```[webservers]```
 '''<target_server IP>'''
 
 

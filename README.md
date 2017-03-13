@@ -14,7 +14,5 @@ Update hosts file on deployment server
 ```cd ansible-flask-demo```   
 ```vim hosts```   
   
-```[webservers]```
-'''<target_server IP>'''
 
 

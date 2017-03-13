@@ -1,21 +1,16 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Delos(lab)</title>
-    <strong><link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}"></strong>
+    <title>Hello World!</title>
+    <strong><link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}"></strong>
   </head>
   <body>
     <header>
       <div class="container">
-        <h1 class="logo">Delos (lab)</h1>
+        <h1 class="logo">Hello World!</h1>
         <strong><nav>
           <ul class="menu">
             <li><a href="{{ url_for('home') }}">Home</a></li>
-            <li><a href="{{ url_for('netdevice') }}">Network Device Status</a></li>
-			<li><a href="{{ url_for('command') }}">Commands</a></li>
-			<li><a href="{{ url_for('script') }}">Scripts</a></li>
-			<li><a href="{{ url_for('archive') }}">Playbooks</a></li>
-			<li><a href="http://nms-srv1:3000/dashboard/">Graphs</a></li>
           </ul>
         </nav></strong>
       </div>

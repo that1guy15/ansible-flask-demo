@@ -10,8 +10,8 @@ Target server: ubuntu/trusty64
 Clone repo to deployment server  
 ```git clone https://github.com/that1guy15/ansible-flask-demo.git```   
   
-'''cd ansible-flask-demo'''
-'''ansible-playbook devops/setup-server.yml'''
-'''ansible-playbook devops/deploy.yml'''
-
+```cd ansible-flask-demo```  
+```ansible-playbook devops/setup-server.yml```  
+```ansible-playbook devops/deploy.yml```  
+  
 From web-browser got http://127.0.0.1:8080
